@@ -1,0 +1,6 @@
+---
+version: 2
+sources:
+- name: "toolkit_e2e_v9_source"
+  tables:
+  - name: "sq_v_adgapd1"

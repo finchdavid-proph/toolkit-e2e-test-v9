@@ -1,0 +1,7 @@
+---
+version: 2
+models:
+- name: "medium__m_ADC_GUEST_APPOINTMENT__m_ADC_GUEST_APPOINTMENT__main"
+  config:
+    tags:
+    - "prophecy_temp"
