@@ -1,6 +1,6 @@
 name: toolkit_e2e_v9
 description: ''
-version: 0.0.2
+version: 0.0.3
 author: finch.david@prophecy.io
 language: sql
 buildSystem: ''
