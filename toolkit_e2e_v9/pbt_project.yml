@@ -36,6 +36,15 @@ sqlMacros:
     - macros/generate_schema_name.sql
     - .prophecy/ide/macros/generate_schema_name.json
     createdAt: '2026-03-17 10:16:49'
+  .prophecy/metadata/sqlmacros/prophecy_tmp_source:
+    name: prophecy_tmp_source
+    macroType: expression
+    description: null
+    author: finch.david@prophecy.io
+    files:
+    - macros/prophecy_tmp_source.sql
+    - .prophecy/ide/macros/prophecy_tmp_source.json
+    createdAt: '2026-03-17 10:18:40'
 sqlSeeds: {}
 sqlSources: {}
 sqlUnreferencedSources: {}
@@ -50,3 +59,23 @@ flags:
   shouldAddDefaultDependenciesIfAbsent: false
 pipelineConfigurations: {}
 projectConfigurations: {}
+sqlOrchestratorPipelines:
+  .prophecy/metadata/sqlorchestratorpipeline/test:
+    name: test
+    schema: null
+    description: null
+    author: finch.david@prophecy.io
+    files:
+    - .prophecy/ide/pipelines/test.json
+    - pipelines/test.py
+    createdAt: '2026-03-17 10:18:40'
+sqlBusinessApps:
+  .prophecy/metadata/sqlbusinessapp/test_analysis:
+    name: test_analysis
+    schema: null
+    description: null
+    author: finch.david@prophecy.io
+    files:
+    - apps/test_analysis.json
+    createdAt: '2026-03-17 10:18:40'
+    sqlOrchestrationPipelineName: test
